@@ -1,0 +1,51 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - menu
+
+responses:
+  utter_greet:
+  - text: "Buenas! Bienvenido al bot creado y desarrolado por Óscar Ruiz!"
+  utter_greet1:
+  - text: "Estaré para tu ayuda!"
+  utter_greet2:
+  - text: "Qué necesitas?"
+  utter_greet3:
+  - text: "Escribe menú para empezar!"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Muchisimas Gracias por tu confianza!"
+  utter_goodbye1:
+  - text: "Que vaya bien y hasta la próxima!"
+
+  utter_iamabot:
+  - text: "Soy un bot creado y desarrolado por Óscar Ruiz."
+  - text: "Espero caerte bien!"
+
+  utter_menu:
+    - text: "MENÚ"
+
+  utter_services:
+    - text: "Servicios"
+
+  utter_catalog:
+    - text: "Catálogo"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
